@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 130px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    
+}
+header h1{
+    font-size: 55px;
+    padding-top: 30px;
+}
+main{
+    width: 100%;
+    height: 130vh;
+    background-image: url(https://media1.thrillophilia.com/filestore/vnsqeyap58fduz2gnnv74enhr850_1576477108_1487749794_spiti-valley-key-kibber-1.jpg.webp.jpg?w=400&dpr=2);
+    background-size:cover;
+    display:flex;
+    
+}
+.main1{
+    height: 100%;
+
+}
+
+.main1 p{
+    width: 50%;
+    font-size: 20px;
+   color: black;
+   padding-top: 150px;
+   margin-left: 100px;
+   font-weight: 600;
+   line-height: 23px;
+}
+strong{
+    font-size: 40px;
+}
+.main3{
+margin-top: -120px;
+}
+.main2{
+    width: 50%;
+}
+.main2 table{
+    height: 80PX;
+    background-color: white;
+    border: 3px solid black;
+    margin-right: 100px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.main2 th, td{
+    text-align: center;
+}
+.main2 input{
+    border-radius: 10PX;
+    box-shadow: none;
+    border-color: aliceblue;
+}
+.main2 h2{
+    color: black;
+    margin-top: 200px;
+    margin-left: 100px;
+
+}
+.article{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+article{
+    width: 90%;
+    height: 90vh;
+    margin-left: 5%;
+    padding-top: 30px;
+}
+article iframe{
+    border-radius: 20px;
+}
+.loc{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+}
+.loc1{
+    width: 28%;
+    height: 450px;
+    background-color: black;
+    margin-left: 50px;
+    border-radius: 20px;
+    margin-top: 30px;
+    overflow: hidden;
+    
+}
+.loc1 img{
+    width: 100%;
+    height: 90%;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.loc1 img:hover{
+    transform: scale(1.1);
+}
+.loc1 h4{
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: flex;
+}
+.footer1{
+    width: 300px;
+    height: 50%;
+    margin-left: 200px;
+    padding-top: 30px;
+}
+.footer1 h3{
+    margin-left:30px;
+    cursor: pointer;
+}
+.footer3{
+    width: 500px;
+    margin-top: 75px;
+    text-align: right;
+}
+.footer3  a{
+    width: 50px;
+    margin-right: 8px;
+    font-size: 40px;
+    color:black;
+}
+.footer1 form{
+    display: grid;
+    padding-top: 10px;
+    margin-left: 30px;
+    text-align: center;
+}
